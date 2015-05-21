@@ -1,0 +1,28 @@
+name = Landed Theme based on HTML5
+description = Landed Theme based on HTML5.
+core = 7.x
+engine = phptemplate
+;stylesheets[all][] = style.css
+stylesheets[all][] = css/skel.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style-xlarge.css
+scripts[] = js/jquery.min.js
+scripts[] = js/jquery.scrolly.min.js
+scripts[] = js/jquery.dropotron.min.js
+scripts[] = js/jquery.scrollex.min.js
+scripts[] = js/skel.min.js
+scripts[] = js/skel-layers.min.js
+scripts[] = js/init.js
+scripts[] = js/backgroundVideo.min.js
+regions[content] = Content
+regions[home_tab_one]  	= Home Page Tab 1
+regions[home_tab_two]   = Home Page Tab 2
+regions[home_tab_three]  = Home Page Tab 3
+regions[home_tab_four] 	= Home Page Tab 4
+regions[newsletter] 	= NewsLetter
+
+; Information added by Drupal.org packaging script on 2015-05-10
+version = "7.35"
+project = "landed_theme"
+datestamp = "1402425233"
+
